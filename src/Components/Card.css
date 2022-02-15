@@ -1,0 +1,22 @@
+.card{
+    width: 23rem;
+    /* height: 30vh; */
+}
+
+.imgCard {
+    width: 300px;
+    height: 400px;
+}
+
+.card-flex {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+    
+}
