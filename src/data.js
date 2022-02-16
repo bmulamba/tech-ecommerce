@@ -6,11 +6,15 @@ export default [
       'I will share with y." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
     price: 136,
     coverImg: "laptop-2.jpg",
+    categories : {
+      all : "all",
+      category : "laptop"
+    },
     stats: {
       rating: 5.0,
       reviewCount: 6,
     },
-    location: "Online",
+    location: "SuperSaver",
     openSpots: 0,
   },
   {
@@ -20,11 +24,15 @@ export default [
       "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
     price: 125,
     coverImg: "laptop-1.jpg",
+    categories : {
+      all : "all",
+      category : "laptop"
+    },
     stats: {
       rating: 5.0,
       reviewCount: 30,
     },
-    location: "Online",
+    location: "online",
     openSpots: 27,
   },
   {
@@ -34,6 +42,10 @@ export default [
       "Experience the beautiful Norwegian landscape and meet new my highest moments only came afte friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
     price: 50,
     coverImg: "laptop-3.jpg",
+    categories : {
+      all : "all",
+      category : "laptop"
+    },
     stats: {
       rating: 4.8,
       reviewCount: 2,
@@ -48,11 +60,15 @@ export default [
       ' you what I call "Positively Impactful Momentsr, many of my highest  losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
     price: 566,
     coverImg: "phone-1.jpg",
+    categories : {
+      all : "all",
+      category : "phone"
+    },
     stats: {
       rating: 4.0,
       reviewCount: 8,
     },
-    location: "Online",
+    location: "Delivery",
     openSpots: 0,
   },
   {
@@ -62,11 +78,15 @@ export default [
       "experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
     price: 509,
     coverImg: "phone-2.jpg",
+    categories : {
+      all : "all",
+      category : "phone"
+    },
     stats: {
       rating: 2.0,
       reviewCount: 43,
     },
-    location: "Online",
+    location: "online",
     openSpots: 2,
   },
   {
@@ -76,6 +96,10 @@ export default [
       "techniques the Positively required to leave the Positively Impactful Momentsr, many of my highest happy couple with techniques required to leave the happy couple with",
     price: 50,
     coverImg: "phone-3.jpg",
+    categories : {
+      all : "all",
+      category : "phone"
+    },
     stats: {
       rating: 4.8,
       reviewCount: 2,
@@ -90,11 +114,15 @@ export default [
       "experienced photographers alike, required  alike, required to leave the Positively join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
     price: 2509,
     coverImg: "phone-4.jpg",
+    categories : {
+      all : "all",
+      category : "phone"
+    },
     stats: {
       rating: 5.0,
       reviewCount: 93,
     },
-    location: "Online",
+    location: "In-Store",
     openSpots: 2,
   },
   {
@@ -104,11 +132,16 @@ export default [
       "techniques the Positively  Impactful Momentsr, required to leave the Positively Impactful Momentsr, many of my highest happy couple with techniques required to leave the happy couple with",
     price: 50,
     coverImg: "laptop-4.jpg",
-    stats: {
-      rating: 2.8,
-      reviewCount: 2,
+    categories : {
+      all : "all",
+      category : "laptop"
     },
-    location: "Norway",
-    openSpots: 3,
+    stats: {
+      rating: 4.8,
+      reviewCount: 76,
+    },
+    location: "JHB",
+    openSpots: 0
   },
 ];
+
